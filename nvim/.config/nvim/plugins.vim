@@ -186,8 +186,6 @@ Plug 'ajh17/VimCompletesMe'
 " So working in Python files doesn't try to invoke autocomplete
 " let g:vcm_omni_pattern = 'NEVER_MATCH'
 
-Plug 'neovim/nvim-lsp'
-
 " colorschemes
 
 " Test colorschemes

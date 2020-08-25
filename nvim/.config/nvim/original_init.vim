@@ -14,12 +14,6 @@ else
     autocmd VimEnter * echom "Install vim-plug with :InstallVimPlug and plugins with :PlugInstall"
 endif
 
-lua <<EOF
-    local nvim_lsp = require'nvim_lsp'
-    nvim_lsp.pyls_ms.setup{}
-EOF
-
-
 syntax on
 " for vim 7
 set t_Co=256
